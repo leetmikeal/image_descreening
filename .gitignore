@@ -259,3 +259,8 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Resources/bfr-8bit-y.tif
+/Resources/bfr-8bit-m.tif
+/Resources/bfr-8bit-k.tif
+/Resources/bfr-8bit-c.tif
+/Resources/bfr-8bit-4cmyk.tif
