@@ -120,7 +120,6 @@ int main(int argc, char* argv[])
 		pathSaveY = argv[3];
 		pathSaveK = argv[4];
 		pathSaveComposed = argv[5];
-
 	}
 
 	// check file exists
