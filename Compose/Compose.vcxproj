@@ -80,7 +80,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;C:\Users\tamaki\source\repos\image_descreening\libtiff\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>halconcpp.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>halconcppxl.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -119,7 +119,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;C:\Users\tamaki\source\repos\image_descreening\libtiff\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>halconcpp.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>halconcppxl.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

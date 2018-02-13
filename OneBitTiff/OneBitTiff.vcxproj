@@ -113,7 +113,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;C:\Users\tamaki\source\repos\image_descreening\libtiff\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>halconcpp.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>halconcppxl.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
     </Link>
     <PreBuildEvent>
@@ -159,7 +159,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files\MVTec\HALCON-13.0\lib\x64-win64;C:\Users\tamaki\source\repos\image_descreening\libtiff\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>halconcpp.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>halconcppxl.lib;libtiff.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command>xcopy "C:\Users\tamaki\source\repos\image_descreening\libtiff\x64\lib\libtiff.dll"  /D /C /Y</Command>
